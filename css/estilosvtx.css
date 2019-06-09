@@ -1,0 +1,366 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Lora;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #D8F2FA;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ #calculo{
+   font-size: 14px
+ }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.conbar{
+  margin-top: 10px;
+  display: grid;
+  width:90%;
+  height:7%;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.barra{
+  width: 10%;
+
+}
+
+progress{
+  display: inline-block;
+  width: 900%;
+  min-width: 200%;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 10px;
+  display: grid;
+  padding: 5px;
+  margin-top: -4px;
+  border-radius: 5px;
+  background: rgba(13, 76, 90, 0.6);
+
+
+}
+header{
+	width: 100%;
+	height: 120px;
+	background:#162023;
+	display: table;
+}
+header h1{
+	display: table-cell;
+	vertical-align: middle;
+  font-weight: bolder;
+	text-align: center;
+	color: #fff;
+}
+
+/*footer{
+		width: 100%;
+		height: 100px;
+		background:url(../Imagenes/fondo.jpg);
+    bottom: 0;
+    /*position:fixed;*/
+  /*  text-align:center;
+}*/
+
+/*Barra de navegacion ↓↓↓↓↓↓*/
+.contenedor{
+  width: 95%;
+  margin:auto;
+}
+
+div nav{
+  background: #15adbd;
+  margin-bottom: 10px;
+  webkit-transition: all ease .9s;
+  -o-transition: all ease .9s;
+  transition: all ease .5s;
+}
+
+div nav ul{
+  list-style:none;
+  overflow: hidden;
+}
+
+div nav ul li{
+  float:left;
+}
+
+div nav ul li a{
+  display: block;
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Lora;
+  transition: all 0.8s ease;
+}
+
+div nav ul li a:hover{
+  background: #30dcee;
+}
+
+.menu-fixed{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  box-shadow:0px 6px 3px rgba(0, 0, 0, 0.5);
+}
+/*Barra de navegacion ↑↑↑↑↑↑*/
+
+/*Formulario ↓↓↓↓↓↓*/
+.contenedor .form .form-header .form-title{
+  font-weight: normal;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #18d2e6;
+}
+
+.contenedor .form .form-header .form-title span{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.contenedor .form{
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+
+.contenedor .form .form-label{
+  display: block;
+  color: #18d2e6;
+  font-size: 16px;
+  font-family: Lora;
+  position: relative;
+}
+
+.contenedor .form .form-input, .form-textarea{
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #18d2e6;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-family: Lora;
+}
+
+.contenedor .form .form-textarea{
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+
+.contenedor .form .btn-submit{
+  width: 100%;
+  font-family: Lora;
+  outline: none;
+  background: #0fa8b9;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+.contenedor .form .btn-submit:hover{
+  background: #1dd1e5;
+}
+/*Formulario ↑↑↑↑↑↑*/
+
+/*Area del test ↓↓↓↓↓↓*/
+#contenedorQ{
+  width: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#contenido{
+  width: 40%;
+  min-width: 25%;
+  height: 430px;
+  float: left;
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 10px;
+  margin-right: 15px;
+  font-size: 22px;
+  font-size: 3vw;
+  font-size: 2.2vh;
+}
+
+#contenido2{
+  width: 25%;
+  min-width: 10%;
+  height: 430px;
+  float: left;
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 10px;
+  margin-left: 0%;
+  font-size: 22px;
+  font-size: 3vw;
+  font-size: 2.2vh;
+}
+
+#subcontenedor{
+  width: 95%;
+  min-width: 10%;
+  height: 95%;
+  float: left;
+  /*background: rgba(255, 255, 255, 0.9);*/
+  margin-top: 10px;
+  margin-left: 2%;
+  font-size: 1.5vw;
+  font-size: 1.4vh;
+  padding: 10px;
+  word-break: break-all;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+#fondo{
+  width: 100%;
+  height: 100px;
+  background:url(../Imagenes/fondo.jpg);
+  bottom: 0;
+  position: fixed;
+  text-align:center;
+
+}
+div nav ul li a:hover{
+  background: #30dcee;
+}
+
+
+
+#myProgress {
+  margin-top: 10px;
+  position: relative;
+  width: 80%;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+#myBar {
+  position: absolute;
+  width: 1%;
+  height: 100%;
+  background-color: #2F93B3;
+}
+
+/*Area del test ↑↑↑↑↑↑*/
+  aside{
+  width:30%;
+  min-width: 10%;
+  height:430px;
+  background: rgba(177, 200, 205, 0.7);
+  border: 5px solid #0D7A93;
+  border-radius: 5px;
+  margin-top: 10px;
+  float: right;
+}
+
+aside .contenedorR{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  min-width: 60%
+  height: 30%;
+  margin: auto;
+  grid-gap: 3px;
+  border-radius: 3px;
+  border: 3px solid #276E7B;
+  background: rgba(13, 76, 90, 0.6);
+  font-size: 12px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+aside .contenedorT{
+  display: grid;
+  width:90%;
+  height:6%;
+  background: rgba(13, 76, 90, 0.6);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  color: #FFF;
+
+  border-radius: 5px;
+
+}
+
+aside .contenedorR > div{
+  display: block;
+  height: 30px;
+  margin: 4px;
+  padding: 0px;
+  color: #fff;
+  background: rgba(13, 76, 90, 0.6);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.separador{
+  padding: 10px;
+  margin-left: 15%;
+  margin-top: 10px;
+
+}
+  #contenido{
+  width: 40%;
+  min-width: 25%;
+  height: 430px;
+  float: left;
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 10px;
+  margin-right: 15px;
+  font-size: 22px;
+  font-size: 3vw;
+  font-size: 2.2vh;
+}
